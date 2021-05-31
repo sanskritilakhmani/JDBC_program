@@ -1,7 +1,9 @@
 # JDBC_program
 -----------------------
------------------------
+
 * [JDBC_Connection](https://github.com/sanskritilakhmani/JDBC_program/blob/main/DBConnection.java)
+
+
 Introduction
 -----------------------
 JDBC or Java Database Connectivity is a specification from Sun microsystems that provides a standard abstraction(that is API or Protocol) for java applications to communicate with various databases. It provides the language with java database connectivity standard. It is used to write programs required to access databases. JDBC along with the database driver is capable of accessing databases and spreadsheets. The enterprise data stored in a relational database(RDB) can be accessed with the help of JDBC APIs.
@@ -34,16 +36,16 @@ package that includes native library to access ODBC characteristics.
 
 Architecture of JDBC
 -------------------------
-![Architecture](https://www.geeksforgeeks.org/introduction-to-jdbc/)
+
 * Application: It is a java applet or a servlet which communicates with a data source.
 * The JDBC API: The JDBC API allows Java programs to execute SQL statements and retrieve results. Some of the important classes and interfaces defined in JDBC API are as follows:
   * DriverManager
-  *Driver
-  *Connection
-  *Statement
-  *PreparedStatement
-  *CallableStatement
-  *ResultSet
-  *SQL data
-*DriverManager: It plays an important role in the JDBC architecture.It uses some database-specific drivers to effectively connect enterprise applications to databases.
-*JDBC drivers: To communicate with a data source through JDBC, you need a JDBC driver that intelligently communicates with the respective data source.
+  * Driver
+  * Connection
+  * Statement
+  * PreparedStatement
+  * CallableStatement
+  * ResultSet
+  * SQL data
+* DriverManager: It plays an important role in the JDBC architecture.It uses some database-specific drivers to effectively connect enterprise applications to databases.
+* JDBC drivers: To communicate with a data source through JDBC, you need a JDBC driver that intelligently communicates with the respective data source.
